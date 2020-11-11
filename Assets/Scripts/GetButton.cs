@@ -14,9 +14,9 @@ public class GetButton : MonoBehaviour
     void Update()
     {
         //Input is evaluated and stored in Input and callded before Update event.
-        bool down = Input.GetButtonDown("Space");
-        bool held = Input.GetButton("Space");
-        bool up = Input.GetButtonUp("Space");
+        bool down = Input.GetButtonDown("space");
+        bool held = Input.GetButton("space");
+        bool up = Input.GetButtonUp("space");
 
         if (down)
         {
